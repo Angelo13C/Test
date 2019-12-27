@@ -41,7 +41,7 @@ The last thing that needs to be done is creating the Database. To create the dat
 `ashdb` is the database name (must coincides with the one that you gave when you created the database), `-h` is the host (`localhost` for hosting the database on your machine), `-p` is the port (for Ash I chose `5432`) and `-U` rappresents the user you want to connect to (must coincide with the `userName` given when you created the user)
 
 
-### Setup Ash server database
 <img align= "right" src="animation.gif" title="Explaining gif">
+### Setup Ash server database
 Now you can set the database credentials of your database and of your user in the Ash server application.
 In the file resources/Database/credentials.txt put in the first line the name of the user created during the installation and in the second line the password that you gave to the user (given in the same command)
