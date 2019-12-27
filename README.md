@@ -2,7 +2,7 @@
 Test
 
 ## Getting started
-Easy setup!
+Easy setup! [Installing section](#installing)
 
 ### Installing
 Firstly you need to install PostgreSQL that is the database manager that Ash Server uses:
@@ -23,7 +23,7 @@ The last thing that needs to be done is creating the Database. To create the dat
 
 `psql`
 
-`create database ashdb`
+`create database ashdb;`
 
 `psql` is needed to access to the default user, while `create database <name>` creates your database (<name> is the name of the database that you will need in the future)
   
@@ -38,4 +38,4 @@ The last thing that needs to be done is creating the Database. To create the dat
 
 `psql ashdb -h localhost -p 5432 -U userName`
 
-'ashdb' is the database name (must coincides with the one that you gave when you created the database), -h is the host (localhost for hosting the database on your machine), -p is the port (for Ash I chose 5432) and -U rappresents the user you want to connect to (must coincide with the userName given when you created the user)
+`ashdb` is the database name (must coincides with the one that you gave when you created the database), `-h` is the host (`localhost` for hosting the database on your machine), `-p` is the port (for Ash I chose `5432`) and `-U` rappresents the user you want to connect to (must coincide with the `userName` given when you created the user)
