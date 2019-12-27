@@ -43,6 +43,7 @@ The last thing that needs to be done is creating the Database. To create the dat
 
 ### Setup Ash server database
 <img align= "right" src="animation.gif" title="Explaining gif">
-  Now you can set the database credentials of your database and of your user in the Ash server application.
+Now you can set the database credentials of your database and of your user in the Ash server application.
+
 
 In the file resources/Database/credentials.txt put in the first line the name of the user created during the installation and in the second line the password that you gave to the user (given in the same command)
