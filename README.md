@@ -2,4 +2,4 @@
 Test
 
 ## Getting started
-Easy setup! [Installing section](https://github.com/Angelo13C/Test/wiki)
+[Check the wiki!](https://github.com/Angelo13C/Test/wiki)
