@@ -13,13 +13,13 @@ After that you need to switch to the Postgres user:
 
 `sudo su postgres`
 
-Then you need to create the user of the database that will owns the database (**you need to put the name you want instead of** `userName`):
+Then you need to create a user of PSQL that will be used to access to the database (**you need to put a userName you want instead of** `userName`):
 
 `createuser userName -P --interactive`
 
-It will ask you a password that you will use in the future to access to the user (**so make a strong password**) and if the user will be a superuser or not (**put yes**)
+It will ask you a password that you will use in the future to access to the user (**so make a strong password**) and if the user will be a superuser or not (**put** `y`)
 
-The last thing that needs to be done is creating the Database. To create the database, write:
+The last thing that needs to be done is creating the Database. To create it, write:
 
 `psql`
 
